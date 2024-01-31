@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+  background-color: rgba(172, 255, 47, 0.195);
+}
+
+.output {
+  grid-column: span 4;
+  height: 60px;
+  border: 2px solid greenyellow;
+  background-color: rgba(172, 255, 47, 0.469);
+  padding: 10px;
+  color: white;
+  text-align: right;
+  font-size: 24px;
+  
+}
+
+button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.ac-button {
+  grid-column-end: span 2;
+  width: 166px;
+}
+
+.equal-button {
+  grid-column-end: span 2; 
+  width: 166px;
+}
+
