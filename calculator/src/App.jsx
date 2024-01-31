@@ -1,5 +1,4 @@
 import "./App.css";
-import CalculatorTable from "./component/calculatorTable";
 import Button from "./component/button";
 import Operator from "./component/operator";
 import { useEffect, useReducer } from "react";
